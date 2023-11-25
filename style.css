@@ -1,0 +1,37 @@
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:visited:hover {
+    color: red;
+}
+
+table, tr, th, td, caption {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+label, input, textarea, button {
+    margin: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
